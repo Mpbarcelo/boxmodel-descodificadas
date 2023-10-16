@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  color: rgba(117, 13, 117, 0.842);
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+}
+
+.txt-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/bem-mequer.jpg);
+  box-shadow: inset 6px 6px 10px 6px rgba(255, 0, 0, 0.7);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+
+  outline-width: 18px;
+  outline-style: double;
+  outline-color: #662266;
+
+  padding: 10px;
+
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(150, 26, 199);
+  margin: auto;
+  margin-top: 40px;
+}
+
+.txt-img p {
+  color: yellow;
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.txt-autor {
+  margin-top: 20px;
+  color: rgba(117, 13, 117, 0.842);
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+  font-size: 40px;
+}
